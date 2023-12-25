@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family:"Carveat";
+            src: url('D:/HTML/fonts/Caveat.ttf');
+        }
+        @font-face {
+            font-family:"Exo2";
+            src: url('D:/HTML/fonts/Exo2-VariableFont_wght.ttf');
+        }
+        @font-face {
+            font-family:"Comfortaa";
+            src: url('D:/HTML/fonts/Comfortaa-VariableFont_wght.ttf');
+        }
+        h1 {    
+            font-family: "Carveat"; /*подключил свой шрифт 1 задание*/
+            margin-top: 0; 
+            margin-bottom: 0; 
+            text-align:center;
+            font-weight:bold;
+            font-style:italic;
+            text-transform:uppercase;
+            size: 45px;
+            text-shadow: black 0px/*горизонт*/ 0px/*вертикаль*/ 10px/*размытие*/;
+            /*Для заголовка <h1> убрать отступ до следующего
+заголовка, выравнивание по центру, начертание полужирный, прописные буквы размером 45px, добавить тень.*/
+        }
+        
+        h2 {    
+            font-family: "Exo2"; /*подключил свой шрифт 1 задание*/
+            margin-top: 0.2 rem; 
+            margin-bottom: 1.2 em;
+            text-indent: 25 px;
+            text-align:left;
+            /*Для заголовков <h2> отступ до текста снизу
+1.2 em, отступ сверху 0.2 rem отступ первой строки равным 25 px,
+выравнивание по левому краю.*/
+        }
+        p {    
+            font-family: "Comfortaa"; /*подключил свой шрифт 1 задание*/
+            text-indent: 25 px;
+            text-align:justify;
+            line-height: 200%;
+            text-indent: 0;
+            size: 20px;
+            /*Для абзацев сделать отступ первой строки равным 25 px, выравнивание по ширине, убрать отступы между абзацами, интерлиньяж задать 200%, размер шрифта 20 px.*/
+        }
+        p::first-letter
+        { 
+            font-weight: bold;
+            size: 45px;
+            color: aliceblue;
+            background-color:hsla(275, 100%, 10%, 1) ;
+            /*Используя псевдоэлементы изменить первую букву
+            каждого абзаца сделав полужирным начертанием, размером 45 px,
+            белого цвета, фон hsla(275, 100%, 10%, 1).*/
+        }
+        
+        ol{
+            list-style-type: upper-roman;   
+
+        }
+        li{
+            color: black;
+            font-family: "Comfortaa"; /*подключил свой шрифт 1 задание*/
+            text-indent: 25 px;
+            text-align:justify;
+            margin-top: 0; 
+            margin-bottom: 0 px;
+            text-indent: 0;
+            size: 20px;
+        }
+        div h2{
+            margin-bottom: 0 px; 
+        }
+            /*В этом же документе создать нумерованный список из 5 пунктов. Нумерацию списка сделать из заглавных римских цифр синего цвета, текст пункта черного цвета, гарнитура и
+        размер текста соответствует тексту предыдущих абзацев. Перед
+        списком добавить заголовок второго уровня, после которого должен отсутствовать отступ.*/
+        span{
+            background-color: red;
+            text-indent: 25px;
+            font-family: "Comfortaa";
+            size: 20px;
+        }
+        li{
+            color:blue;
+        }
+        li div{
+            color: black;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Заголовок 1 уровня</h1>
+    <h2>Заголовок 2 уровня</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores possimus dolores accusamus quaerat vel laudantium cum hic expedita amet maxime inventore quos optio vitae excepturi, facilis voluptatum? Quae, itaque vel?</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, maiores fuga. Maiores asperiores odit vero sit similique corporis? Consectetur quia sapiente repellat velit necessitatibus. Qui, eius sit? Tempore, pariatur debitis!</p>
+    <br>
+    <h2>Заголовок 2 уровня</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores maiores excepturi molestias deleniti, asperiores nesciunt deserunt inventore laboriosam. Laudantium ut, sint doloribus quasi fuga minus dolor perspiciatis amet voluptas ad.</p>
+    <br>
+    <div><h2>Заголовок 2 уровня</h2></div>
+    <ol>
+        <li><div>Item1</div></li>
+        <li><div>Item2</div></li>
+        <li><div>Item3</div></li>
+        <li><div>Item4</div></li>
+        <li><div>Item5</div></li>
+    </ol> 
+    <BR>
+    <SPAN>Lorem ipsum dolor sit amet consectetur adipisicing elit.</SPAN> Ipsum officiis voluptatum maxime laborum inventore obcaecati ullam. Iure atque velit quae dolorum reiciendis excepturi facere quaerat id harum nobis incidunt quas!
+</body>
+</html>

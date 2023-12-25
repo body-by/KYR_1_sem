@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d {
+            height: auto;
+
+
+        }
+
+        .d1 {
+            height: 50px;
+            width: 200px;
+            border: 1px solid rgb(173, 170, 170);
+            border-radius: 30px 30px 30px 30px;
+            margin: 0px 3px 3px 10px;
+            display: inline-block;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        .d1>.img1 {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .img1 {
+            margin: 0px;
+            padding: 0px;
+            border-radius: 30px;
+        }
+
+
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box6 {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 5px;
+            border: 2px solid rgb(0, 0, 0);
+
+
+        }
+
+        .box1 {
+            background-image: linear-gradient(to bottom, blue, purple, red);
+        }
+
+        .box2 {
+            background: repeating-linear-gradient(45deg, red,
+                    red 10px, blue 10px, blue 20px);
+        }
+
+        .box3 {
+            background: radial-gradient(yellow, green)
+        }
+
+        .box4 {
+            background-image: repeating-radial-gradient(circle, #ffe600, #ffe600 10px, #06ad00 10px, #06ad00 20px);
+        }
+
+        .box5 {
+            background-image: radial-gradient(yellow, green, transparent),
+                linear-gradient(to top, magenta, blue);
+        }
+
+        .box6 {
+            background-image: 
+            linear-gradient(to right, yellow, green, transparent),
+            linear-gradient(to top, magenta, blue, transparent 30%, black);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d">
+
+        <a href="D:/Лабы КЯР/lab 6/pic/index.html">
+            <div class="d1"><img src="D:/Лабы КЯР/pages/page 1.jpg" class="img1">
+            </div>
+        </a>
+        <a href="D:/Лабы КЯР/lab 6/gallery/gallery.html">
+            <div class="d1"><img src="D:/Лабы КЯР/pages/page 2.jpg" class="img1">
+            </div>
+        </a>
+        <a href="D:/Лабы КЯР/lab 6/map/map.html">
+            <div class="d1"><img src="D:/Лабы КЯР/pages/page 3.jpg" class="img1">
+            </div>
+        </a>
+
+    </div>
+
+    <div style="margin-top: 5%;">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"> </div>
+        <div class="box6"></div>
+    </div>
+</body>
+
+</html>

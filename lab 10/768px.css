@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    figcaption,h1{
+        color: blue;
+    }
+    .container{
+        justify-content: center;
+    }
+    figure{
+        width: 100%;
+    }
+}
+

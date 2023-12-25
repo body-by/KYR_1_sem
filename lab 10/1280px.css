@@ -1,0 +1,6 @@
+@media (max-width: 1280px) and (min-width:768px){
+    figcaption,h1{
+        color: green;
+    }
+
+}
